@@ -39,7 +39,7 @@ A UI-Plugin For BCU, which can beautify BCU Frame look and feel with theme, font
 
     
 
-*   below are the details what I modified code and reason
+*   below are the details about codes I modified and reason
 
     *   main method of `MainBCU.java`: to enable UI-Plugin
 
@@ -67,7 +67,7 @@ A UI-Plugin For BCU, which can beautify BCU Frame look and feel with theme, font
             // do after frame init
             P.doAfterFrameInit();
         
-            // MainFrame should be invisible before calling method 
+            // MainFrame should be invisible before calling this method 
             MainFrame.F.setVisible(true);
             new Timer().start();
         
@@ -138,7 +138,7 @@ A UI-Plugin For BCU, which can beautify BCU Frame look and feel with theme, font
 
 ## For User Who Wanna Try BCU-UI In Advance
 
-*   well, now BCU-UI can run successfully with features above, but its core version is 05112 and I also have some ideas to improve it. so, wait for it.
+*   Well, now BCU-UI can run successfully with features above, but its core version is 05112 and I also have some ideas to improve it. so, wait for it.
 
 
 
